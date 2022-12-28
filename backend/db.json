@@ -1,0 +1,44 @@
+{
+    "produtos": [
+        {
+            "id": "DOJ321",
+            "preco": 35,
+            "nome": "E não sobrou nenhum",
+            "autor": "Agatha Christie",
+            "genero": [
+                "romance",
+                "policial"
+            ]
+        },
+        {
+            "id": "DSE761",
+            "preco": 42,
+            "nome": "O sol desvelado",
+            "autor": "Isaac Asimov",
+            "genero": [
+                "ficcao cientifica",
+                "policial"
+            ]
+        },
+        {
+            "id": "HPJ304",
+            "preco": 42,
+            "nome": "Volta ao mundo em 80 dias",
+            "autor": "Julio Verne",
+            "genero": [
+                "classico",
+                "policial"
+            ]
+        },
+        {
+            "id": "HPJ304",
+            "preco": 42,
+            "nome": "Volta ao mundo em 80 dias",
+            "autor": "Julio Verne",
+            "genero": [
+                "classico",
+                "policial"
+            ]
+        }
+    ]
+}
