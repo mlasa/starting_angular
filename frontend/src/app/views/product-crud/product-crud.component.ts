@@ -10,8 +10,9 @@ import { Router } from '@angular/router';
 export class ProductCrudComponent {
 
   private router : Router;
-  private teste : string  = "hello world";
-  private counter : number = 0;
+  
+  public teste : string  = "hello world";
+  public counter : number = 0;
 
   constructor(router: Router){
     this.router = router;
