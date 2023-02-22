@@ -9,16 +9,15 @@ import { Router } from '@angular/router';
 
 export class ProductCrudComponent {
 
-  public router : Router;
-  public teste : string  = "hello world";
-  public counter : number = 0;
+  private router : Router;
+  private teste : string  = "hello world";
+  private counter : number = 0;
 
   constructor(router: Router){
     this.router = router;
   }
 
   navigate(route:string){
-    console.log(this.router)
     this.router.navigate([route]);
   }
 
