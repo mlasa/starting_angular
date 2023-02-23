@@ -11,23 +11,14 @@ export class ProductCrudComponent {
 
   private router : Router;
   
-  public teste : string  = "hello world";
-  public counter : number = 0;
-
   constructor(router: Router){
     this.router = router;
   }
 
-  navigate(route:string){
+  ngOnInit():void{}
+
+  navigate(route:string):void{
     this.router.navigate([route]);
-  }
-
-  addCount(){
-    this.counter ++;
-  }
-
-  increaseCount(){
-    this.counter --;
   }
 
 }

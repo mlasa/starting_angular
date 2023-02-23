@@ -1,11 +1,5 @@
-<p>product-crud works!</p>
+<h1>Produtos</h1>
 
-<p>Interpolação de variável: {{teste}} </p>
-
-<p><strong>Contador: </strong>: {{counter}} </p>
-
-
-<button (click) = "addCount()">Aumentar contador </button>
-<button (click) = "increaseCount()">Diminuir contador </button>
-
-<button (click)="navigate('/')">Ir para home</button>
+<button mat-raised-button (click)="navigate('produto/criar')">
+    Criar produto
+</button>
